@@ -1,0 +1,35 @@
+# Test file for custom secret scanner
+# This file contains secrets that should be detected
+
+# Database credentials
+root_password = "RootPass2024!"
+prod_db_password = "ProductionDB_Secret_2024"
+database_password = "MainDB_Password123"
+
+# Admin access
+admin_password = "AdminAccess2024!"
+system_password = "SystemAdmin_Pass2024"
+
+# API credentials
+internal_api_key = "internal_api_12345abcdef"
+service_secret = "ServiceSecret_ABC123"
+
+# SSH access
+ssh_private_key = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA..."
+deployment_password = "DeployKey_2024_Secure"
+
+# Production secrets
+production_secret = "ProdSecret_XYZ789"
+live_password = "LiveEnv_Password_2024"
+
+# Encrypted variations
+encoded_admin_password = "QWRtaW5QYXNzMjAyNCE="
+encrypted_db_password = "EncryptedValue_DB_2024"
+
+# Legacy systems
+mainframe_password = "MainframeAccess_1980"
+as400_password = "AS400_System_Password"
+
+# Financial systems
+billing_password = "BillingSystem_Access_2024"
+payment_password = "PaymentGateway_Secret123"
